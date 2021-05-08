@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"vmssoftware.project-dep.buildName": "DEBUG",
+		"files.associations": {
+			"*.h65": "ca65",
+			"lib$routines.h": "c"
+		}
+	}
+}

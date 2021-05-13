@@ -292,8 +292,6 @@
 #include <gdebug.h>
 #include <cpuid.h>
 
-#pragma message disable LONGEXTERN
-
 #if (GLIDE_PLATFORM & GLIDE_HW_H3)
 #include <h3.h>
 

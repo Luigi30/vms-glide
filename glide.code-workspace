@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"vmssoftware.project-dep.buildName": "RELEASE",
+		"files.associations": {
+			"*.h65": "ca65",
+			"lib$routines.h": "c",
+			"fxglide.h": "c",
+			"sch_routines.h": "c",
+			"ioc_routines.h": "c",
+			"INTS.H": "cpp",
+			"GEN64DEF.H": "cpp",
+			"v2client.h": "c",
+			"glide.h": "c",
+			"3dfx.h": "c",
+			"glidesys.h": "c",
+			"gdebug.h": "c",
+			"gump.h": "c",
+			"sst1init.h": "c",
+			"stsdef.h": "c"
+		},
+		"files.eol": "\n"
+	}
+}

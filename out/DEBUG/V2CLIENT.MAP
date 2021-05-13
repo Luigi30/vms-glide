@@ -1,0 +1,930 @@
+
+[.OUT.DEBUG]V2CLIENT.EXE                                        10-MAY-2021 00:43        Linker A13-04                    Page    1
+
+                                             +------------------------+
+                                             ! Object Module Synopsis !
+                                             +------------------------+
+
+Module Name     Ident              Bytes      File                                Creation Date      Creator
+-----------     -----              -----      -----                               -------------      -------
+V2CLIENT        V1.0                 1924 V2CLIENT.OBJ;5                       10-MAY-2021 00:43  VSI C V7.4-002
+CPUDETECT       V1.0                  476 CPUDETECT.OBJ;1                       9-MAY-2021 23:42  VSI C V7.4-002
+CPUID           V1.0                 1676 CPUID.OBJ;1                           9-MAY-2021 23:42  VSI C V7.4-002
+DDGUMP          V1.0                 2526 DDGUMP.OBJ;1                          9-MAY-2021 23:42  VSI C V7.4-002
+DIGLIDE         V1.0               810856 DIGLIDE.OBJ;1                         9-MAY-2021 23:42  VSI C V7.4-002
+DIGUTEX         V1.0                 4428 DIGUTEX.OBJ;1                         9-MAY-2021 23:42  VSI C V7.4-002
+DISST           V1.0                 1189 DISST.OBJ;1                           9-MAY-2021 23:42  VSI C V7.4-002
+DISTATE         V1.0                    4 DISTATE.OBJ;1                         9-MAY-2021 23:42  VSI C V7.4-002
+DISTRIP         V1.0                    4 DISTRIP.OBJ;1                         9-MAY-2021 23:42  VSI C V7.4-002
+DITEX           V1.0                 5106 DITEX.OBJ;1                           9-MAY-2021 23:42  VSI C V7.4-002
+FIFO            V1.0                   16 FIFO.OBJ;1                            9-MAY-2021 23:42  VSI C V7.4-002
+FPU             V1.0                  132 FPU.OBJ;1                             9-MAY-2021 23:42  VSI C V7.4-002
+G3DF            V1.0                 5640 G3DF.OBJ;1                            9-MAY-2021 23:42  VSI C V7.4-002
+GAA             V1.0                 5084 GAA.OBJ;1                             9-MAY-2021 23:42  VSI C V7.4-002
+GBANNER         V1.0                   84 GBANNER.OBJ;1                         9-MAY-2021 23:42  VSI C V7.4-002
+GDRAW           V1.0                 3576 GDRAW.OBJ;1                           9-MAY-2021 23:42  VSI C V7.4-002
+GERROR          V1.0                 1176 GERROR.OBJ;1                          9-MAY-2021 23:42  VSI C V7.4-002
+GGLIDE          V1.0                12144 GGLIDE.OBJ;1                          9-MAY-2021 23:42  VSI C V7.4-002
+GLFB            V1.0                 5768 GLFB.OBJ;1                            9-MAY-2021 23:42  VSI C V7.4-002
+GMOVIE          V1.0                  511 GMOVIE.OBJ;1                          9-MAY-2021 23:42  VSI C V7.4-002
+GPCI            V1.0                 3820 GPCI.OBJ;3                           10-MAY-2021 00:42  VSI C V7.4-002
+GSPLASH         V1.0                   92 GSPLASH.OBJ;1                         9-MAY-2021 23:43  VSI C V7.4-002
+GSST            V1.0                 6544 GSST.OBJ;1                            9-MAY-2021 23:43  VSI C V7.4-002
+GSTRIP          V1.0                    4 GSTRIP.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+GTEX            V1.0                 6216 GTEX.OBJ;1                            9-MAY-2021 23:43  VSI C V7.4-002
+GTEXDL          V1.0                 4920 GTEXDL.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+GU              V1.0                 4120 GU.OBJ;1                              9-MAY-2021 23:43  VSI C V7.4-002
+GUCLIP          V1.0                 4996 GUCLIP.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+GUMP            V1.0                  544 GUMP.OBJ;1                            9-MAY-2021 23:43  VSI C V7.4-002
+GUTEX           V1.0                  788 GUTEX.OBJ;1                           9-MAY-2021 23:43  VSI C V7.4-002
+GXDRAW          V1.0                 1140 GXDRAW.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+XTEXDL          V1.0                 2236 XTEXDL.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+CANOPUS         V1.0                 1356 CANOPUS.OBJ;1                         9-MAY-2021 23:43  VSI C V7.4-002
+DAC             V1.0                17830 DAC.OBJ;1                             9-MAY-2021 23:43  VSI C V7.4-002
+FXREMAP         V1.0                 8784 FXREMAP.OBJ;1                         9-MAY-2021 23:43  VSI C V7.4-002
+GAMMA           V1.0                 3058 GAMMA.OBJ;1                           9-MAY-2021 23:43  VSI C V7.4-002
+GDEBUG          V1.0                 4360 GDEBUG.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+INFO            V1.0                44176 INFO.OBJ;1                            9-MAY-2021 23:43  VSI C V7.4-002
+PARSE           V1.0                10016 PARSE.OBJ;1                           9-MAY-2021 23:43  VSI C V7.4-002
+PRINT           V1.0                  930 PRINT.OBJ;1                           9-MAY-2021 23:43  VSI C V7.4-002
+SLI             V1.0                13436 SLI.OBJ;1                             9-MAY-2021 23:43  VSI C V7.4-002
+SST1INIT        V1.0                24006 SST1INIT.OBJ;3                       10-MAY-2021 00:42  VSI C V7.4-002
+UTIL            V1.0                15333 UTIL.OBJ;1                            9-MAY-2021 23:43  VSI C V7.4-002
+VIDEO           V1.0                25454 VIDEO.OBJ;1                           9-MAY-2021 23:43  VSI C V7.4-002
+FX64            V1.0                   16 FX64.OBJ;1                            9-MAY-2021 23:43  VSI C V7.4-002
+FXGLOB          V1.0                    4 FXGLOB.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+FXIMG           V1.0                22029 FXIMG.OBJ;1                           9-MAY-2021 23:43  VSI C V7.4-002
+FXOS            V1.0                  968 FXOS.OBJ;1                            9-MAY-2021 23:43  VSI C V7.4-002
+FXINFO          V1.0                34389 FXINFO.OBJ;1                          9-MAY-2021 23:43  VSI C V7.4-002
+
+[.OUT.DEBUG]V2CLIENT.EXE                                        10-MAY-2021 00:43        Linker A13-04                    Page    2
+
+
+Module Name     Ident              Bytes      File                                Creation Date      Creator
+-----------     -----              -----      -----                               -------------      -------
+FXOVMS          V1.0                 2504 FXOVMS.OBJ;4                         10-MAY-2021 00:35  VSI C V7.4-002
+FXPCI           V1.0                32382 FXPCI.OBJ;1                           9-MAY-2021 23:43  VSI C V7.4-002
+SST1_PCI        V1.0                   96 SST1_PCI.OBJ;1                        9-MAY-2021 23:43  VSI C V7.4-002
+
+                                            +--------------------------+
+                                            ! Program Section Synopsis !
+                                            +--------------------------+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+$LINK$                          00010000 00016CB7 00006CB8 (      27832.) OCTA  4 NOPIC,CON,REL,LCL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                V2CLIENT        00010000 0001016F 00000170 (        368.) OCTA  4
+                CPUDETECT       00010170 000101ED 0000007E (        126.) OCTA  4
+                CPUID           000101F0 000102EF 00000100 (        256.) OCTA  4
+                DDGUMP          000102F0 0001037F 00000090 (        144.) OCTA  4
+                DIGLIDE         00010380 0001058F 00000210 (        528.) OCTA  4
+                DIGUTEX         00010590 00010767 000001D8 (        472.) OCTA  4
+                DISST           00010770 00010877 00000108 (        264.) OCTA  4
+                DITEX           00010880 00010A8F 00000210 (        528.) OCTA  4
+                FPU             00010A90 00010ABF 00000030 (         48.) OCTA  4
+                G3DF            00010AC0 00010CF3 00000234 (        564.) OCTA  4
+                GAA             00010D00 00010E4F 00000150 (        336.) OCTA  4
+                GBANNER         00010E50 00010E67 00000018 (         24.) OCTA  4
+                GDRAW           00010E70 00010F9F 00000130 (        304.) OCTA  4
+                GERROR          00010FA0 000110B7 00000118 (        280.) OCTA  4
+                GGLIDE          000110C0 000115CF 00000510 (       1296.) OCTA  4
+                GLFB            000115D0 00011747 00000178 (        376.) OCTA  4
+                GMOVIE          00011750 000117BF 00000070 (        112.) OCTA  4
+                GPCI            000117C0 0001199F 000001E0 (        480.) OCTA  4
+                GSPLASH         000119A0 000119B7 00000018 (         24.) OCTA  4
+                GSST            000119C0 00011E2F 00000470 (       1136.) OCTA  4
+                GTEX            00011E30 00011FFF 000001D0 (        464.) OCTA  4
+                GTEXDL          00012000 00012127 00000128 (        296.) OCTA  4
+                GU              00012130 00012307 000001D8 (        472.) OCTA  4
+                GUCLIP          00012310 0001251F 00000210 (        528.) OCTA  4
+                GUMP            00012520 000125B7 00000098 (        152.) OCTA  4
+                GUTEX           000125C0 0001260F 00000050 (         80.) OCTA  4
+                GXDRAW          00012610 00012647 00000038 (         56.) OCTA  4
+                XTEXDL          00012650 0001273F 000000F0 (        240.) OCTA  4
+                CANOPUS         00012740 000127AF 00000070 (        112.) OCTA  4
+                DAC             000127B0 00012C2F 00000480 (       1152.) OCTA  4
+                FXREMAP         00012C30 00012F5F 00000330 (        816.) OCTA  4
+                GAMMA           00012F60 000130BF 00000160 (        352.) OCTA  4
+                GDEBUG          000130C0 000133A3 000002E4 (        740.) OCTA  4
+                INFO            000133B0 000136DF 00000330 (        816.) OCTA  4
+                PARSE           000136E0 00013A47 00000368 (        872.) OCTA  4
+                PRINT           00013A50 00013B3F 000000F0 (        240.) OCTA  4
+                SLI             00013B40 00013D27 000001E8 (        488.) OCTA  4
+                SST1INIT        00013D30 0001420F 000004E0 (       1248.) OCTA  4
+                UTIL            00014210 000145F7 000003E8 (       1000.) OCTA  4
+                VIDEO           00014600 00014BFF 00000600 (       1536.) OCTA  4
+                FXIMG           00014C00 00015417 00000818 (       2072.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page    3
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+$LINK$                          00010000 00016CB7 00006CB8 (      27832.) OCTA  4 NOPIC,CON,REL,LCL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD   
+                FXOS            00015420 00015507 000000E8 (        232.) OCTA  4
+                FXINFO          00015510 000165FC 000010ED (       4333.) OCTA  4
+                FXOVMS          00016600 0001684F 00000250 (        592.) OCTA  4
+                FXPCI           00016850 00016CB7 00000468 (       1128.) OCTA  4
+$LITERAL$                       00016CC0 0001F791 00008AD2 (      35538.) OCTA  4   PIC,CON,REL,LCL,  SHR,NOEXE,NOWRT,NOVEC,  MOD 
+                V2CLIENT        00016CC0 00016DBD 000000FE (        254.) OCTA  4
+                CPUDETECT       00016DC0 00016DE9 0000002A (         42.) OCTA  4
+                DDGUMP          00016DF0 00016ED9 000000EA (        234.) OCTA  4
+                DIGLIDE         00016EE0 0001709F 000001C0 (        448.) OCTA  4
+                DIGUTEX         000170A0 000170FB 0000005C (         92.) OCTA  4
+                DISST           00017100 00017138 00000039 (         57.) OCTA  4
+                DITEX           00017140 00017179 0000003A (         58.) OCTA  4
+                G3DF            00017180 0001735F 000001E0 (        480.) OCTA  4
+                GERROR          00017360 000173D3 00000074 (        116.) OCTA  4
+                GGLIDE          000173E0 0001747B 0000009C (        156.) OCTA  4
+                GLFB            00017480 000174FF 00000080 (        128.) OCTA  4
+                GMOVIE          00017500 0001755A 0000005B (         91.) OCTA  4
+                GPCI            00017560 0001766B 0000010C (        268.) OCTA  4
+                GSST            00017670 0001769F 00000030 (         48.) OCTA  4
+                GTEX            000176A0 0001774F 000000B0 (        176.) OCTA  4
+                GTEXDL          00017750 0001779B 0000004C (         76.) OCTA  4
+                GU              000177A0 000177E3 00000044 (         68.) OCTA  4
+                DAC             000177F0 00017A61 00000272 (        626.) OCTA  4
+                GAMMA           00017A70 00017AD9 0000006A (        106.) OCTA  4
+                GDEBUG          00017AE0 00017B17 00000038 (         56.) OCTA  4
+                INFO            00017B20 00017EA3 00000384 (        900.) OCTA  4
+                PARSE           00017EB0 00017EF3 00000044 (         68.) OCTA  4
+                PRINT           00017F00 00017F55 00000056 (         86.) OCTA  4
+                SLI             00017F60 0001847B 0000051C (       1308.) OCTA  4
+                SST1INIT        00018480 00018E99 00000A1A (       2586.) OCTA  4
+                UTIL            00018EA0 000193D8 00000539 (       1337.) OCTA  4
+                VIDEO           000193E0 0001A1F9 00000E1A (       3610.) OCTA  4
+                FXIMG           0001A200 0001A7FC 000005FD (       1533.) OCTA  4
+                FXINFO          0001A800 0001F60B 00004E0C (      19980.) OCTA  4
+                FXOVMS          0001F610 0001F717 00000108 (        264.) OCTA  4
+                FXPCI           0001F720 0001F791 00000072 (        114.) OCTA  4
+$READONLY$                      0001F7A0 00022447 00002CA8 (      11432.) OCTA  4   PIC,CON,REL,LCL,  SHR,NOEXE,NOWRT,NOVEC,  MOD 
+                V2CLIENT        0001F7A0 0001F7DF 00000040 (         64.) OCTA  4
+                CPUDETECT       0001F7E0 0001F7EF 00000010 (         16.) OCTA  4
+                CPUID           0001F7F0 0001F82F 00000040 (         64.) OCTA  4
+                DDGUMP          0001F830 0001F86F 00000040 (         64.) OCTA  4
+                DIGLIDE         0001F870 0001F947 000000D8 (        216.) OCTA  4
+                DIGUTEX         0001F950 0001FA6F 00000120 (        288.) OCTA  4
+                DISST           0001FA70 0001FAFF 00000090 (        144.) OCTA  4
+                DITEX           0001FB00 0001FD4F 00000250 (        592.) OCTA  4
+                FIFO            0001FD50 0001FD5F 00000010 (         16.) OCTA  4
+                FPU             0001FD60 0001FD8F 00000030 (         48.) OCTA  4
+                G3DF            0001FD90 0001FE17 00000088 (        136.) OCTA  4
+                GAA             0001FE20 0001FECF 000000B0 (        176.) OCTA  4
+                GBANNER         0001FED0 0001FEF7 00000028 (         40.) OCTA  4
+                GDRAW           0001FF00 0001FFBF 000000C0 (        192.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page    4
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+$READONLY$                      0001F7A0 00022447 00002CA8 (      11432.) OCTA  4   PIC,CON,REL,LCL,  SHR,NOEXE,NOWRT,NOVEC,  MOD   
+                GERROR          0001FFC0 00020027 00000068 (        104.) OCTA  4
+                GGLIDE          00020030 0002031F 000002F0 (        752.) OCTA  4
+                GLFB            00020320 000203EF 000000D0 (        208.) OCTA  4
+                GMOVIE          000203F0 0002042F 00000040 (         64.) OCTA  4
+                GPCI            00020430 00020487 00000058 (         88.) OCTA  4
+                GSPLASH         00020490 000204AF 00000020 (         32.) OCTA  4
+                GSST            000204B0 000205A7 000000F8 (        248.) OCTA  4
+                GTEX            000205B0 0002068F 000000E0 (        224.) OCTA  4
+                GTEXDL          00020690 0002071F 00000090 (        144.) OCTA  4
+                GU              00020720 0002081F 00000100 (        256.) OCTA  4
+                GUCLIP          00020820 0002092F 00000110 (        272.) OCTA  4
+                GUMP            00020930 00020997 00000068 (        104.) OCTA  4
+                GUTEX           000209A0 000209BF 00000020 (         32.) OCTA  4
+                GXDRAW          000209C0 000209E7 00000028 (         40.) OCTA  4
+                XTEXDL          000209F0 00020ADF 000000F0 (        240.) OCTA  4
+                CANOPUS         00020AE0 00020B27 00000048 (         72.) OCTA  4
+                DAC             00020B30 00020D6F 00000240 (        576.) OCTA  4
+                FXREMAP         00020D70 00020F07 00000198 (        408.) OCTA  4
+                GAMMA           00020F10 00020F5F 00000050 (         80.) OCTA  4
+                GDEBUG          00020F60 000210A7 00000148 (        328.) OCTA  4
+                INFO            000210B0 000211A7 000000F8 (        248.) OCTA  4
+                PARSE           000211B0 000212FF 00000150 (        336.) OCTA  4
+                PRINT           00021300 0002132F 00000030 (         48.) OCTA  4
+                SLI             00021330 00021397 00000068 (        104.) OCTA  4
+                SST1INIT        000213A0 000214A7 00000108 (        264.) OCTA  4
+                UTIL            000214B0 0002172F 00000280 (        640.) OCTA  4
+                VIDEO           00021730 0002189F 00000170 (        368.) OCTA  4
+                FX64            000218A0 000218AF 00000010 (         16.) OCTA  4
+                FXIMG           000218B0 00021C1F 00000370 (        880.) OCTA  4
+                FXOS            00021C20 00021C4F 00000030 (         48.) OCTA  4
+                FXINFO          00021C50 00021C87 00000038 (         56.) OCTA  4
+                FXOVMS          00021C90 00021E1F 00000190 (        400.) OCTA  4
+                FXPCI           00021E20 00022447 00000628 (       1576.) OCTA  4
+IOPROCSVMS                      00022450 0002248F 00000040 (         64.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXOVMS          00022450 0002248F 00000040 (         64.) OCTA  4
+PCI_ACPI_CAP_ID                 00022490 0002249F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022490 0002249F 00000010 (         16.) OCTA  4
+PCI_AGP_CAP_ID                  000224A0 000224AF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000224A0 000224AF 00000010 (         16.) OCTA  4
+PCI_AGP_CMD                     000224B0 000224BF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000224B0 000224BF 00000010 (         16.) OCTA  4
+PCI_AGP_STATUS                  000224C0 000224CF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000224C0 000224CF 00000010 (         16.) OCTA  4
+PCI_BASE_ADDRESS_0              000224D0 000224DF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000224D0 000224DF 00000010 (         16.) OCTA  4
+PCI_BASE_ADDRESS_1              000224E0 000224EF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000224E0 000224EF 00000010 (         16.) OCTA  4
+PCI_BIST                        000224F0 000224FF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000224F0 000224FF 00000010 (         16.) OCTA  4
+PCI_CACHE_LINE_SIZE             00022500 0002250F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022500 0002250F 00000010 (         16.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page    5
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+PCI_CAP_PTR                     00022510 0002251F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022510 0002251F 00000010 (         16.) OCTA  4
+PCI_CLASS_CODE                  00022520 0002252F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022520 0002252F 00000010 (         16.) OCTA  4
+PCI_CNTRL_STATUS                00022530 0002253F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022530 0002253F 00000010 (         16.) OCTA  4
+PCI_COMMAND                     00022540 0002254F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022540 0002254F 00000010 (         16.) OCTA  4
+PCI_CONFIG_SCRATCH              00022550 0002255F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022550 0002255F 00000010 (         16.) OCTA  4
+PCI_CONFIG_STATUS               00022560 0002256F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022560 0002256F 00000010 (         16.) OCTA  4
+PCI_DEVICE_ID                   00022570 0002257F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022570 0002257F 00000010 (         16.) OCTA  4
+PCI_FAB_ID                      00022580 0002258F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022580 0002258F 00000010 (         16.) OCTA  4
+PCI_HEADER_TYPE                 00022590 0002259F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022590 0002259F 00000010 (         16.) OCTA  4
+PCI_INTERRUPT_LINE              000225A0 000225AF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000225A0 000225AF 00000010 (         16.) OCTA  4
+PCI_INTERRUPT_PIN               000225B0 000225BF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000225B0 000225BF 00000010 (         16.) OCTA  4
+PCI_IO_BASE_ADDRESS             000225C0 000225CF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000225C0 000225CF 00000010 (         16.) OCTA  4
+PCI_LATENCY_TIMER               000225D0 000225DF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000225D0 000225DF 00000010 (         16.) OCTA  4
+PCI_MAX_LAT                     000225E0 000225EF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000225E0 000225EF 00000010 (         16.) OCTA  4
+PCI_MIN_GNT                     000225F0 000225FF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           000225F0 000225FF 00000010 (         16.) OCTA  4
+PCI_REVISION_ID                 00022600 0002260F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022600 0002260F 00000010 (         16.) OCTA  4
+PCI_ROM_BASE_ADDRESS            00022610 0002261F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022610 0002261F 00000010 (         16.) OCTA  4
+PCI_SST1_BUS_SNOOP_0            00022620 0002262F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022620 0002262F 00000010 (         16.) OCTA  4
+PCI_SST1_BUS_SNOOP_1            00022630 0002263F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022630 0002263F 00000010 (         16.) OCTA  4
+PCI_SST1_CFG_STATUS             00022640 0002264F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022640 0002264F 00000010 (         16.) OCTA  4
+PCI_SST1_INIT_ENABLE            00022650 0002265F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022650 0002265F 00000010 (         16.) OCTA  4
+PCI_STATUS                      00022660 0002266F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022660 0002266F 00000010 (         16.) OCTA  4
+PCI_SUBSYSTEM_ID                00022670 0002267F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022670 0002267F 00000010 (         16.) OCTA  4
+PCI_SUBVENDOR_ID                00022680 0002268F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022680 0002268F 00000010 (         16.) OCTA  4
+PCI_VENDOR_ID                   00022690 0002269F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                FXPCI           00022690 0002269F 00000010 (         16.) OCTA  4
+SST1_PCI_BUS_SNOOP_0            000226A0 000226AF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1_PCI        000226A0 000226AF 00000010 (         16.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page    6
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+SST1_PCI_BUS_SNOOP_1            000226B0 000226BF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1_PCI        000226B0 000226BF 00000010 (         16.) OCTA  4
+SST1_PCI_CFG_SCRATCH            000226C0 000226CF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1INIT        000226C0 000226CF 00000010 (         16.) OCTA  4
+SST1_PCI_CFG_STATUS             000226D0 000226DF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1_PCI        000226D0 000226DF 00000010 (         16.) OCTA  4
+SST1_PCI_INIT_ENABLE            000226E0 000226EF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1_PCI        000226E0 000226EF 00000010 (         16.) OCTA  4
+SST1_PCI_SIPROCESS              000226F0 000226FF 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1INIT        000226F0 000226FF 00000010 (         16.) OCTA  4
+SST1_PCI_VCLK_DISABLE           00022700 0002270F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1_PCI        00022700 0002270F 00000010 (         16.) OCTA  4
+SST1_PCI_VCLK_ENABLE            00022710 0002271F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                SST1_PCI        00022710 0002271F 00000010 (         16.) OCTA  4
+_GRMIPMAPHOSTSIZE               00022720 0002281F 00000100 (        256.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                DITEX           00022720 0002281F 00000100 (        256.) OCTA  4
+_GRMIPMAPHOSTWH                 00022820 00022A17 000001F8 (        504.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                DITEX           00022820 00022A17 000001F8 (        504.) OCTA  4
+_GR_ASPECT_INDEX_TABLE          00022A20 00022A3B 0000001C (         28.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                DITEX           00022A20 00022A3B 0000001C (         28.) OCTA  4
+_GR_ASPECT_XLATE_TABLE          00022A40 00022A5B 0000001C (         28.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                DITEX           00022A40 00022A5B 0000001C (         28.) OCTA  4
+_GR_EVENODD_XLATE_TABLE         00022A60 00022A6F 00000010 (         16.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,NOWRT,NOVEC,  MOD 
+                DITEX           00022A60 00022A6F 00000010 (         16.) OCTA  4
+$DATA$                          00030000 000301F7 000001F8 (        504.) OCTA  4 NOPIC,CON,REL,LCL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                V2CLIENT        00030000 00030007 00000008 (          8.) OCTA  4
+                DIGLIDE         00030010 0003001F 00000010 (         16.) OCTA  4
+                G3DF            00030020 00030023 00000004 (          4.) OCTA  4
+                GERROR          00030030 00030033 00000004 (          4.) OCTA  4
+                GGLIDE          00030040 0003005F 00000020 (         32.) OCTA  4
+                GPCI            00030060 00030063 00000004 (          4.) OCTA  4
+                GSST            00030070 00030073 00000004 (          4.) OCTA  4
+                DAC             00030080 0003008F 00000010 (         16.) OCTA  4
+                FXREMAP         00030090 0003009B 0000000C (         12.) OCTA  4
+                GAMMA           000300A0 000300BB 0000001C (         28.) OCTA  4
+                GDEBUG          000300C0 000300CF 00000010 (         16.) OCTA  4
+                PARSE           000300D0 000300E7 00000018 (         24.) OCTA  4
+                PRINT           000300F0 000300F7 00000008 (          8.) OCTA  4
+                SLI             00030100 00030107 00000008 (          8.) OCTA  4
+                SST1INIT        00030110 00030117 00000008 (          8.) OCTA  4
+                FXOVMS          00030120 0003013F 00000020 (         32.) OCTA  4
+                FXPCI           00030140 000301F7 000000B8 (        184.) OCTA  4
+DACSTRUCTBASE                   00030200 00030203 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        00030200 00030203 00000004 (          4.) OCTA  4
+ENVVARSBASE                     00030210 00030213 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        00030210 00030213 00000004 (          4.) OCTA  4
+GCURPLATFORMIO                  00030220 00030223 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXPCI           00030220 00030223 00000004 (          4.) OCTA  4
+IMGERRORSTRING                  00030230 00030233 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXIMG           00030230 00030233 00000004 (          4.) OCTA  4
+IMGTXCOLORFORMATNAMES           00030240 00030277 00000038 (         56.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXIMG           00030240 00030277 00000038 (         56.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page    7
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+IMGTYPESTRING                   00030280 00030297 00000018 (         24.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXIMG           00030280 00030297 00000018 (         24.) OCTA  4
+INIDAC                          000302A0 000302A3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        000302A0 000302A3 00000004 (          4.) OCTA  4
+INIMEMCLK                       000302B0 000302B3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        000302B0 000302B3 00000004 (          4.) OCTA  4
+INISTACKPTR                     000302C0 000302C3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        000302C0 000302C3 00000004 (          4.) OCTA  4
+INITIDLEENABLED                 000302D0 000302D3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        000302D0 000302D3 00000004 (          4.) OCTA  4
+INIVIDEO                        000302E0 000302E3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        000302E0 000302E3 00000004 (          4.) OCTA  4
+PCIERRORCODE                    000302F0 000302F3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXPCI           000302F0 000302F3 00000004 (          4.) OCTA  4
+PCIHWCCALLBACKS                 00030300 0003031F 00000020 (         32.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXPCI           00030300 0003031F 00000020 (         32.) OCTA  4
+PCILIBRARYINITIALIZED           00030320 00030323 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXPCI           00030320 00030323 00000004 (          4.) OCTA  4
+PCIVXDVER                       00030330 00030333 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                FXPCI           00030330 00030333 00000004 (          4.) OCTA  4
+SST1INITMSGFILE                 00030340 00030343 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        00030340 00030343 00000004 (          4.) OCTA  4
+SST1INITUSEVOODOOFILE           00030350 00030353 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                SST1INIT        00030350 00030353 00000004 (          4.) OCTA  4
+SST_VREZ_1024X768_60            00030360 000303A7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030360 000303A7 00000048 (         72.) OCTA  4
+SST_VREZ_1024X768_75            000303B0 000303F7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000303B0 000303F7 00000048 (         72.) OCTA  4
+SST_VREZ_1024X768_85            00030400 00030447 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030400 00030447 00000048 (         72.) OCTA  4
+SST_VREZ_320X200_120            00030450 00030497 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030450 00030497 00000048 (         72.) OCTA  4
+SST_VREZ_320X200_70             000304A0 000304E7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000304A0 000304E7 00000048 (         72.) OCTA  4
+SST_VREZ_320X200_75             000304F0 00030537 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000304F0 00030537 00000048 (         72.) OCTA  4
+SST_VREZ_320X200_85             00030540 00030587 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030540 00030587 00000048 (         72.) OCTA  4
+SST_VREZ_320X240_120            00030590 000305D7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030590 000305D7 00000048 (         72.) OCTA  4
+SST_VREZ_320X240_60             000305E0 00030627 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000305E0 00030627 00000048 (         72.) OCTA  4
+SST_VREZ_320X240_75             00030630 00030677 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030630 00030677 00000048 (         72.) OCTA  4
+SST_VREZ_320X240_85             00030680 000306C7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030680 000306C7 00000048 (         72.) OCTA  4
+SST_VREZ_400X300_120            000306D0 00030717 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000306D0 00030717 00000048 (         72.) OCTA  4
+SST_VREZ_400X300_60             00030720 00030767 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030720 00030767 00000048 (         72.) OCTA  4
+SST_VREZ_400X300_75             00030770 000307B7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030770 000307B7 00000048 (         72.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page    8
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+SST_VREZ_400X300_85             000307C0 00030807 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000307C0 00030807 00000048 (         72.) OCTA  4
+SST_VREZ_512X256_60             00030810 00030857 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030810 00030857 00000048 (         72.) OCTA  4
+SST_VREZ_512X384_120            00030860 000308A7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030860 000308A7 00000048 (         72.) OCTA  4
+SST_VREZ_512X384_60             000308B0 000308F7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000308B0 000308F7 00000048 (         72.) OCTA  4
+SST_VREZ_512X384_72             00030900 00030947 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030900 00030947 00000048 (         72.) OCTA  4
+SST_VREZ_512X384_75             00030950 00030997 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030950 00030997 00000048 (         72.) OCTA  4
+SST_VREZ_512X384_75_NOSCANDOUBL 000309A0 000309E7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000309A0 000309E7 00000048 (         72.) OCTA  4
+SST_VREZ_512X384_85             000309F0 00030A37 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           000309F0 00030A37 00000048 (         72.) OCTA  4
+SST_VREZ_512X384_85_NOSCANDOUBL 00030A40 00030A87 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030A40 00030A87 00000048 (         72.) OCTA  4
+SST_VREZ_640X400_120            00030A90 00030AD7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030A90 00030AD7 00000048 (         72.) OCTA  4
+SST_VREZ_640X400_70             00030AE0 00030B27 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030AE0 00030B27 00000048 (         72.) OCTA  4
+SST_VREZ_640X400_75             00030B30 00030B77 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030B30 00030B77 00000048 (         72.) OCTA  4
+SST_VREZ_640X400_85             00030B80 00030BC7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030B80 00030BC7 00000048 (         72.) OCTA  4
+SST_VREZ_640X480_120            00030BD0 00030C17 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030BD0 00030C17 00000048 (         72.) OCTA  4
+SST_VREZ_640X480_60             00030C20 00030C67 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030C20 00030C67 00000048 (         72.) OCTA  4
+SST_VREZ_640X480_75             00030C70 00030CB7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030C70 00030CB7 00000048 (         72.) OCTA  4
+SST_VREZ_640X480_85             00030CC0 00030D07 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030CC0 00030D07 00000048 (         72.) OCTA  4
+SST_VREZ_800X600_120            00030D10 00030D57 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030D10 00030D57 00000048 (         72.) OCTA  4
+SST_VREZ_800X600_60             00030D60 00030DA7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030D60 00030DA7 00000048 (         72.) OCTA  4
+SST_VREZ_800X600_75             00030DB0 00030DF7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030DB0 00030DF7 00000048 (         72.) OCTA  4
+SST_VREZ_800X600_85             00030E00 00030E47 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030E00 00030E47 00000048 (         72.) OCTA  4
+SST_VREZ_856X480_60             00030E50 00030E97 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030E50 00030E97 00000048 (         72.) OCTA  4
+SST_VREZ_960X720_60             00030EA0 00030EE7 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030EA0 00030EE7 00000048 (         72.) OCTA  4
+SST_VREZ_960X720_75             00030EF0 00030F37 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030EF0 00030F37 00000048 (         72.) OCTA  4
+SST_VREZ_960X720_85             00030F40 00030F87 00000048 (         72.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,  MOD 
+                VIDEO           00030F40 00030F87 00000048 (         72.) OCTA  4
+$CODE$                          00040000 00072D1B 00032D1C (     208156.) OCTA  4   PIC,CON,REL,LCL,  SHR,  EXE,NOWRT,NOVEC,  MOD 
+                V2CLIENT        00040000 000404C3 000004C4 (       1220.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page    9
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+$CODE$                          00040000 00072D1B 00032D1C (     208156.) OCTA  4   PIC,CON,REL,LCL,  SHR,  EXE,NOWRT,NOVEC,  MOD   
+                CPUDETECT       000404D0 000405F3 00000124 (        292.) OCTA  4
+                CPUID           00040600 0004092B 0000032C (        812.) OCTA  4
+                DDGUMP          00040930 00041153 00000824 (       2084.) OCTA  4
+                DIGLIDE         00041160 000419DB 0000087C (       2172.) OCTA  4
+                DIGUTEX         000419E0 000427D7 00000DF8 (       3576.) OCTA  4
+                DISST           000427E0 00042AB3 000002D4 (        724.) OCTA  4
+                DITEX           00042AC0 000432D3 00000814 (       2068.) OCTA  4
+                FPU             000432E0 00043303 00000024 (         36.) OCTA  4
+                G3DF            00043310 00044477 00001168 (       4456.) OCTA  4
+                GAA             00044480 0004565B 000011DC (       4572.) OCTA  4
+                GBANNER         00045660 00045673 00000014 (         20.) OCTA  4
+                GDRAW           00045680 00046287 00000C08 (       3080.) OCTA  4
+                GERROR          00046290 0004652B 0000029C (        668.) OCTA  4
+                GGLIDE          00046530 00048BE3 000026B4 (       9908.) OCTA  4
+                GLFB            00048BF0 00049FAF 000013C0 (       5056.) OCTA  4
+                GMOVIE          00049FB0 0004A0A3 000000F4 (        244.) OCTA  4
+                GPCI            0004A0B0 0004AC53 00000BA4 (       2980.) OCTA  4
+                GSPLASH         0004AC60 0004AC83 00000024 (         36.) OCTA  4
+                GSST            0004AC90 0004C083 000013F4 (       5108.) OCTA  4
+                GTEX            0004C090 0004D577 000014E8 (       5352.) OCTA  4
+                GTEXDL          0004D580 0004E6B3 00001134 (       4404.) OCTA  4
+                GU              0004E6C0 0004F3BB 00000CFC (       3324.) OCTA  4
+                GUCLIP          0004F3C0 00050423 00001064 (       4196.) OCTA  4
+                GUMP            00050430 00050543 00000114 (        276.) OCTA  4
+                GUTEX           00050550 000507F3 000002A4 (        676.) OCTA  4
+                GXDRAW          00050800 00050C13 00000414 (       1044.) OCTA  4
+                XTEXDL          00050C20 000512FB 000006DC (       1756.) OCTA  4
+                CANOPUS         00051300 00051793 00000494 (       1172.) OCTA  4
+                DAC             000517A0 000553F7 00003C58 (      15448.) OCTA  4
+                FXREMAP         00055400 00056893 00001494 (       5268.) OCTA  4
+                GAMMA           000568A0 0005725B 000009BC (       2492.) OCTA  4
+                GDEBUG          00057260 00057CE3 00000A84 (       2692.) OCTA  4
+                INFO            00057CF0 0005A1D3 000024E4 (       9444.) OCTA  4
+                PARSE           0005A1E0 0005C3EB 0000220C (       8716.) OCTA  4
+                PRINT           0005C3F0 0005C613 00000224 (        548.) OCTA  4
+                SLI             0005C620 0005F327 00002D08 (      11528.) OCTA  4
+                SST1INIT        0005F330 00062F53 00003C24 (      15396.) OCTA  4
+                UTIL            00062F60 00065FA3 00003044 (      12356.) OCTA  4
+                VIDEO           00065FB0 0006A29B 000042EC (      17132.) OCTA  4
+                FXIMG           0006A2A0 0006E6D3 00004434 (      17460.) OCTA  4
+                FXOS            0006E6E0 0006E987 000002A8 (        680.) OCTA  4
+                FXINFO          0006E990 000710B3 00002724 (      10020.) OCTA  4
+                FXOVMS          000710C0 00071537 00000478 (       1144.) OCTA  4
+                FXPCI           00071540 00072D1B 000017DC (       6108.) OCTA  4
+$BSS$                           00080000 0008E867 0000E868 (      59496.) 2 **  6 NOPIC,CON,REL,LCL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                V2CLIENT        00080000 00080007 00000008 (          8.) OCTA  4
+                CPUID           00080040 0008025F 00000220 (        544.) 2 **  6
+                DITEX           00080260 0008045F 00000200 (        512.) OCTA  4
+                DAC             00080460 0008046B 0000000C (         12.) OCTA  4
+                FXREMAP         00080470 00080D57 000008E8 (       2280.) OCTA  4
+                GDEBUG          00080D60 00080F6F 00000210 (        528.) OCTA  4
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   10
+
+
+Psect Name      Module Name       Base     End           Length            Align                 Attributes
+----------      -----------       ----     ---           ------            -----                 ----------
+$BSS$                           00080000 0008E867 0000E868 (      59496.) 2 **  6 NOPIC,CON,REL,LCL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD   
+                INFO            00080F80 00088F7F 00008000 (      32768.) 2 **  6
+                FXOS            00088F80 00088F87 00000008 (          8.) OCTA  4
+                FXOVMS          00088F90 00088F97 00000008 (          8.) OCTA  4
+                FXPCI           00088FC0 0008E867 000058A8 (      22696.) 2 **  6
+BOARDSINSYSTEM                  0008E870 0008E873 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                SST1INIT        0008E870 0008E873 00000004 (          4.) OCTA  4
+BOARDSINSYSTEMREALLY            0008E880 0008E883 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                SST1INIT        0008E880 0008E883 00000004 (          4.) OCTA  4
+CHANNEL                         0008E890 0008E891 00000002 (          2.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                V2CLIENT        0008E890 0008E891 00000002 (          2.) OCTA  4
+GRERRORCALLBACK                 0008E8A0 0008E8A3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                GERROR          0008E8A0 0008E8A3 00000004 (          4.) OCTA  4
+INISTACK                        0008E8B0 0008E8EF 00000040 (         64.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                SST1INIT        0008E8B0 0008E8EF 00000040 (         64.) OCTA  4
+P6FENCEVAR                      0008E8F0 0008E8F3 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                SST1INIT        0008E8F0 0008E8F3 00000004 (          4.) OCTA  4
+RLE_LINE                        0008E900 0008EAFF 00000200 (        512.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                DITEX           0008E900 0008EAFF 00000200 (        512.) OCTA  4
+RLE_LINE_END                    0008EB00 0008EB03 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                DITEX           0008EB00 0008EB03 00000004 (          4.) OCTA  4
+SST1BOARDINFO                   0008EB10 0008FC0F 00001100 (       4352.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                SST1INIT        0008EB10 0008FC0F 00001100 (       4352.) OCTA  4
+SST1CURRENTBOARD                0008FC10 0008FC13 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                SST1INIT        0008FC10 0008FC13 00000004 (          4.) OCTA  4
+SST1INITDEVICENUMBER            0008FC20 0008FC23 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                SST1INIT        0008FC20 0008FC23 00000004 (          4.) OCTA  4
+X                               0008FC30 0008FC33 00000004 (          4.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                DISTATE         0008FC30 0008FC33 00000004 (          4.) OCTA  4
+                DISTRIP         0008FC30 0008FC33 00000004 (          4.) OCTA  4
+                GSTRIP          0008FC30 0008FC33 00000004 (          4.) OCTA  4
+                FXGLOB          0008FC30 0008FC33 00000004 (          4.) OCTA  4
+_GLIDEROOT                      0008FC40 00154E73 000C5234 (     807476.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                DIGLIDE         0008FC40 00154E73 000C5234 (     807476.) OCTA  4
+_GUMPSTATE                      00154E80 00154E8B 0000000C (         12.) OCTA  4 NOPIC,OVR,REL,GBL,NOSHR,NOEXE,  WRT,NOVEC,NOMOD 
+                GUMP            00154E80 00154E8B 0000000C (         12.) OCTA  4
+
+                                                +-----------------+
+                                                ! Symbols By Name !
+                                                +-----------------+
+
+Symbol                          Value       Symbol                          Value       Symbol                          Value       
+------                          -----       ------                          -----       ------                          -----       
+BOARDSINSYSTEM                  0008E870-R                                              FXREMAP                         00012F40-R  
+BOARDSINSYSTEMREALLY            0008E880-R                                              FXTIME                          00015420-R  
+CHANNEL                         0008E890-R                                              GCURPLATFORMIO                  00030220-R  
+CONVERTANDDOWNLOADRLE           00012038-R                                              GDBG_ERROR                      000131F0-R  
+DACSTRUCTBASE                   00030200-R                                              GDBG_ERROR_CLEAR_CALLBACK       00013250-R  
+DOUBLE_PRECISION_ASM            00010AA8-R                                              GDBG_ERROR_SET_CALLBACK         00013268-R  
+ENVVARSBASE                     00030210-R                                              GDBG_GET_DEBUGLEVEL             00013180-R  
+ESCALATE                        00010110-R                                              GDBG_GET_ERRORS                 00013198-R  
+FXFOPENPATH                     00015460-R                                              GDBG_INFO                       000132A0-R  
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   11
+
+
+Symbol                          Value       Symbol                          Value       Symbol                          Value       
+------                          -----       ------                          -----       ------                          -----       
+GDBG_INFO_MORE                  00013280-R                                              GRGLIDEINIT                     00010420-R  
+GDBG_INIT                       00013350-R                                              GRGLIDESETSTATE                 000111B8-R  
+GDBG_PARSE                      00013330-R                                              GRGLIDESHAMELESSPLUG            00010408-R  
+GDBG_PRINTF                     000132D0-R                                              GRGLIDESHUTDOWN                 000111E0-R  
+GDBG_SET_DEBUGLEVEL             00013168-R                                              GRHINTS                         00010460-R  
+GDBG_SET_FILE                   00013108-R                                              GRLFBCONSTANTALPHA              000115D0-R  
+GDBG_SET_KEEPALIVE              000132F0-R                                              GRLFBCONSTANTDEPTH              00011730-R  
+GDBG_SHUTDOWN                   00013308-R                                              GRLFBLOCK                       00011630-R  
+GDBG_VPRINTF                    000131B0-R                                              GRLFBREADREGION                 00011680-R  
+GRAADRAWLINE                    00010E30-R                                              GRLFBUNLOCK                     000115F0-R  
+GRAADRAWPOINT                   00010D00-R                                              GRLFBWRITECOLORFORMAT           00011710-R  
+GRAADRAWPOLYGON                 00010DF0-R                                              GRLFBWRITECOLORSWIZZLE          000116F0-R  
+GRAADRAWPOLYGONVERTEXLIST       00010DB8-R                                              GRLFBWRITEREGION                000116D0-R  
+GRAADRAWTRIANGLE                00010E10-R                                              GRRENDERBUFFER                  00011178-R  
+GRALPHABLENDFUNCTION            000110C0-R                                              GRRESETTRISTATS                 000103F0-R  
+GRALPHACOMBINE                  000115B0-R                                              GRSPLASH                        000119A0-R  
+GRALPHACONTROLSITRGBLIGHTING    00011590-R                                              GRSSTCONFIGPIPELINE             00011D10-R  
+GRALPHATESTFUNCTION             00011358-R                                              GRSSTCONTROL                    00011DF8-R  
+GRALPHATESTREFERENCEVALUE       00011570-R                                              GRSSTIDLE                       00011D68-R  
+GRBUFFERCLEAR                   00011550-R                                              GRSSTISBUSY                     00011D40-R  
+GRBUFFERNUMPENDING              000114D8-R                                              GRSSTORIGIN                     000119F8-R  
+GRBUFFERSWAP                    00011530-R                                              GRSSTPERFSTATS                  00011DD8-R  
+GRCHECKFORROOM                  00011158-R                                              GRSSTQUERYBOARDS                00010770-R  
+GRCHROMAKEYMODE                 00011338-R                                              GRSSTQUERYHARDWARE              00010838-R  
+GRCHROMAKEYVALUE                000114B8-R                                              GRSSTRESETPERFSTATS             00011DB8-R  
+GRCLIPWINDOW                    00011498-R                                              GRSSTSCREENHEIGHT               000107D8-R  
+GRCOLORCOMBINE                  00011458-R                                              GRSSTSCREENWIDTH                000107F0-R  
+GRCOLORMASK                     00011438-R                                              GRSSTSELECT                     00010808-R  
+GRCONSTANTCOLORVALUE            00011418-R                                              GRSSTSTATUS                     00011D28-R  
+GRCONSTANTCOLORVALUE4           000113F8-R                                              GRSSTVIDEOLINE                  00011DA0-R  
+GRCULLMODE                      000113D8-R                                              GRSSTVIDMODE                    000107B8-R  
+GRDEPTHBIASLEVEL                00011318-R                                              GRSSTVRETRACEON                 00011D88-R  
+GRDEPTHBUFFERFUNCTION           000113B8-R                                              GRSSTWINCLOSE                   00011A30-R  
+GRDEPTHBUFFERMODE               000112F0-R                                              GRSSTWINOPEN                    00011BC0-R  
+GRDEPTHMASK                     00011398-R                                              GRTEXCALCMEMREQUIRED            00010A30-R  
+GRDISABLEALLEFFECTS             00011378-R                                              GRTEXCLAMPMODE                  00011FE0-R  
+GRDITHERMODE                    000112D0-R                                              GRTEXCOMBINE                    00011FB0-R  
+GRDRAWLINE                      00010F80-R                                              GRTEXCOMBINEFUNCTION            00010710-R  
+GRDRAWPLANARPOLYGON             00010F60-R                                              GRTEXDETAILCONTROL              00010A00-R  
+GRDRAWPLANARPOLYGONVERTEXLIST   00010F40-R                                              GRTEXDOWNLOADMIPMAP             00010990-R  
+GRDRAWPOINT                     00010E70-R                                              GRTEXDOWNLOADMIPMAPLEVEL        000108C8-R  
+GRDRAWPOLYGON                   00010F20-R                                              GRTEXDOWNLOADMIPMAPLEVELPARTIAL 000120C0-R  
+GRDRAWPOLYGONVERTEXLIST         00010F00-R                                              GRTEXDOWNLOADTABLE              00012108-R  
+GRDRAWTRIANGLE                  00010ED0-R                                              GRTEXDOWNLOADTABLEPARTIAL       00010910-R  
+GRERRORCALLBACK                 0008E8A0-R                                              GRTEXFILTERMODE                 00011F70-R  
+GRERRORSETCALLBACK              000110A0-R                                              GRTEXLODBIASVALUE               00011F40-R  
+GRFOGCOLORVALUE                 00011280-R                                              GRTEXMAXADDRESS                 000109D0-R  
+GRFOGMODE                       000112B0-R                                              GRTEXMINADDRESS                 000109E8-R  
+GRFOGTABLE                      00011260-R                                              GRTEXMIPMAPMODE                 00011F10-R  
+GRGAMMACORRECTIONVALUE          000119C0-R                                              GRTEXMULTIBASE                  00011EA0-R  
+GRGLIDEGETSTATE                 000104C0-R                                              GRTEXMULTIBASEADDRESS           00011E68-R  
+GRGLIDEGETVERSION               000104E0-R                                              GRTEXNCCTABLE                   00011EF0-R  
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   12
+
+
+Symbol                          Value       Symbol                          Value       Symbol                          Value       
+------                          -----       ------                          -----       ------                          -----       
+GRTEXSOURCE                     00011EC0-R                                              INITIDLEENABLED                 000302D0-R  
+GRTEXTEXTUREMEMREQUIRED         00010970-R                                              INIVIDEO                        000302E0-R  
+GRTRISTATS                      000103D8-R                                              IOPROCSVMS                      00022450-R  
+GU3DFGETINFO                    00010C68-R                                              MAIN                            00010040-R  
+GU3DFLOAD                       00010BB0-R                                              P6FENCEVAR                      0008E8F0-R  
+GUAADRAWTRIANGLEWITHCLIP        000124B0-R                                              PCICLOSE                        00016BE8-R  
+GUALPHASOURCE                   00012130-R                                              PCIDEVICEEXISTS                 00016A60-R  
+GUCOLORCOMBINEFUNCTION          000122C0-R                                              PCIERRORCODE                    000302F0-R  
+GUDRAWPOLYGONVERTEXLISTWITHCLIP 00012430-R                                              PCIFINDCARD                     00016B88-R  
+GUDRAWTRIANGLEWITHCLIP          000124F0-R                                              PCIFINDCARDMULTI                00016B20-R  
+GUENCODERLE16                   00012160-R                                              PCIGETCLASSNAME                 00015610-R  
+GUENDIANSWAPBYTES               00012290-R                                              PCIGETCONFIGDATA                00016A38-R  
+GUENDIANSWAPWORDS               000122A8-R                                              PCIGETERRORCODE                 00016C28-R  
+GUFBREADREGION                  00012560-R                                              PCIGETERRORSTRING               00016C40-R  
+GUFBWRITEREGION                 00012540-R                                              PCIGETVENDORNAME                00015E78-R  
+GUFOGGENERATEEXP                00012270-R                                              PCIHWCCALLBACKS                 00030300-R  
+GUFOGGENERATEEXP2               00012240-R                                              PCILIBRARYINITIALIZED           00030320-R  
+GUFOGGENERATELINEAR             00012210-R                                              PCILINEARRANGESETPERMISSION     00016880-R  
+GUFOGTABLEINDEXTOW              000121D0-R                                              PCIMAPCARD                      00016B68-R  
+GUMOVIESETNAME                  00011780-R                                              PCIMAPCARDMULTI                 00016B48-R  
+GUMOVIESTART                    00011750-R                                              PCIMAPPHYSICALDEVICETOLINEAR    00016918-R  
+GUMOVIESTOP                     000117A0-R                                              PCIMAPPHYSICALTOLINEAR          00016938-R  
+GUMPDRAWTRIANGLE                00010340-R                                              PCIOPEN                         00016AA0-R  
+GUMPINIT                        00012520-R                                              PCIOPENEX                       00016C08-R  
+GUMPTEXCOMBINEFUNCTION          000125A0-R                                              PCIOUTPUTDEBUGSTRING            000168A0-R  
+GUMPTEXSOURCE                   00012580-R                                              PCIPLATFORMINIT                 00016600-R  
+GUTEXALLOCATEMEMORY             000105B0-R                                              PCISETCONFIGDATA                00016BC8-R  
+GUTEXCHANGEATTRIBUTES           00010748-R                                              PCISETPASSTHROUGHBASE           000168C0-R  
+GUTEXCOMBINEFUNCTION            000106D0-R                                              PCIUNMAPPHYSICAL                000168F0-R  
+GUTEXCREATECOLORMIPMAP          000121A0-R                                              PCIVXDVER                       00030330-R  
+GUTEXDOWNLOADMIPMAP             000106B0-R                                              PCI_ACPI_CAP_ID                 00022490-R  
+GUTEXDOWNLOADMIPMAPLEVEL        00010668-R                                              PCI_AGP_CAP_ID                  000224A0-R  
+GUTEXGETCURRENTMIPMAP           00010650-R                                              PCI_AGP_CMD                     000224B0-R  
+GUTEXGETMIPMAPINFO              00010638-R                                              PCI_AGP_STATUS                  000224C0-R  
+GUTEXMEMQUERYAVAIL              00010590-R                                              PCI_BASE_ADDRESS_0              000224D0-R  
+GUTEXMEMRESET                   00010610-R                                              PCI_BASE_ADDRESS_1              000224E0-R  
+GUTEXSOURCE                     000125C0-R                                              PCI_BIST                        000224F0-R  
+IMGERRORSTRING                  00030230-R                                              PCI_CACHE_LINE_SIZE             00022500-R  
+IMGGETERRORSTRING               00014ED0-R                                              PCI_CAP_PTR                     00022510-R  
+IMGREADDATA                     00014FF0-R                                              PCI_CLASS_CODE                  00022520-R  
+IMGREADFILE                     00015328-R                                              PCI_CNTRL_STATUS                00022530-R  
+IMGREADINFO                     00015308-R                                              PCI_COMMAND                     00022540-R  
+IMGTXCOLORFORMATNAMES           00030240-R                                              PCI_CONFIG_SCRATCH              00022550-R  
+IMGTYPENAME                     00014DF0-R                                              PCI_CONFIG_STATUS               00022560-R  
+IMGTYPESTRING                   00030280-R                                              PCI_DEVICE_ID                   00022570-R  
+IMGWRITEFILE                    00014E38-R                                              PCI_FAB_ID                      00022580-R  
+IMGWRITEIMAGE                   00014DA8-R                                              PCI_HEADER_TYPE                 00022590-R  
+IMGWRITEIMAGEFROMWIDEBUFFER     000153E0-R                                              PCI_INTERRUPT_LINE              000225A0-R  
+INIDAC                          000302A0-R                                              PCI_INTERRUPT_PIN               000225B0-R  
+INIMEMCLK                       000302B0-R                                              PCI_IO_BASE_ADDRESS             000225C0-R  
+INISTACK                        0008E8B0-R                                              PCI_LATENCY_TIMER               000225D0-R  
+INISTACKPTR                     000302C0-R                                              PCI_MAX_LAT                     000225E0-R  
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   13
+
+
+Symbol                          Value       Symbol                          Value       Symbol                          Value       
+------                          -----       ------                          -----       ------                          -----       
+PCI_MIN_GNT                     000225F0-R                                              SST1INITGAMMARGB                00012FE0-R  
+PCI_REVISION_ID                 00022600-R                                              SST1INITGAMMATABLE              000130A0-R  
+PCI_ROM_BASE_ADDRESS            00022610-R                                              SST1INITGETBASEADDR             00013E30-R  
+PCI_SST1_BUS_SNOOP_0            00022620-R                                              SST1INITGETDEVICEINFO           000136A8-R  
+PCI_SST1_BUS_SNOOP_1            00022630-R                                              SST1INITGETENV                  00013A28-R  
+PCI_SST1_CFG_STATUS             00022640-R                                              SST1INITGETFBIINFO              000135B0-R  
+PCI_SST1_INIT_ENABLE            00022650-R                                              SST1INITGETTMUINFO              00013530-R  
+PCI_STATUS                      00022660-R                                              SST1INITGETTMUMEMORY            00013460-R  
+PCI_SUBSYSTEM_ID                00022670-R                                              SST1INITGRXCLK                  00012B10-R  
+PCI_SUBVENDOR_ID                00022680-R                                              SST1INITIDLE                    000142A8-R  
+PCI_VENDOR_ID                   00022690-R                                              SST1INITIDLEFBI                 000145D8-R  
+PIOINBYTE                       00016850-R                                              SST1INITIDLEFBINONOP            000145B8-R  
+PIOINLONG                       000169A8-R                                              SST1INITIDLEFBIWITHTIMEOUT      00014340-R  
+PIOINWORD                       00016C98-R                                              SST1INITIDLELOOP                00014268-R  
+PIOOUTBYTE                      00016988-R                                              SST1INITIDLENONOP               000144C0-R  
+PIOOUTLONG                      000169E0-R                                              SST1INITLFBLOCK                 000144A0-R  
+PIOOUTWORD                      00016C78-R                                              SST1INITLFBLOCKDIRECT           00014480-R  
+RLE_DECODE_LINE_ASM             000108B0-R                                              SST1INITLFBUNLOCK               00014460-R  
+RLE_LINE                        0008E900-R                                              SST1INITLFBUNLOCKDIRECT         00014440-R  
+RLE_LINE_END                    0008EB00-R                                              SST1INITMAPBOARD                00013D30-R  
+SINGLE_PRECISION_ASM            00010A90-R                                              SST1INITMAPBOARDDIRECT          00014178-R  
+SST1BOARDINFO                   0008EB10-R                                              SST1INITMEASURESIPROCESS        00014380-R  
+SST1CURRENTBOARD                0008FC10-R                                              SST1INITMONITORDETECT           00014670-R  
+SST1INITALLOCBUFFERS            00014880-R                                              SST1INITMSGFILE                 00030340-R  
+SST1INITCACHING                 00013D80-R                                              SST1INITNUMBOARDSINSYSTEM       00013D98-R  
+SST1INITCALCGRXCLK              00012B40-R                                              SST1INITPCIFIFOIDLELOOP         00014288-R  
+SST1INITCALCTCLKDELAY           00014360-R                                              SST1INITPRINTF                  00013AA0-R  
+SST1INITCHECKBOARD              00013E70-R                                              SST1INITPRINTINITREGS           00014420-R  
+SST1INITCHECKTMUMEMCONST        00014300-R                                              SST1INITREAD32                  00014210-R  
+SST1INITCLEARBOARDINFO          00013E10-R                                              SST1INITREGISTERS               00014068-R  
+SST1INITCLEARSWAPPENDING        00014598-R                                              SST1INITRENDERINGREGISTERS      00013FD0-R  
+SST1INITCMDFIFO                 00014508-R                                              SST1INITRESETFBI                00014528-R  
+SST1INITCMDFIFODIRECT           000144E0-R                                              SST1INITRESETTMUS               00014548-R  
+SST1INITCOMPUTECLKPARAMS        00012AB0-R                                              SST1INITRETURNSTATUS            00014228-R  
+SST1INITCOMPUTECLKPARAMSATT     00012A78-R                                              SST1INITSETCLKDELAYS            00014730-R  
+SST1INITCOMPUTECLKPARAMSATT_INT 00012740-R                                              SST1INITSETGRXCLK               00014B98-R  
+SST1INITCOMPUTECLKPARAMSTI      00012A40-R                                              SST1INITSETGRXCLKATT            000129B0-R  
+SST1INITCONVERTREFRESHRATE      000148C0-R                                              SST1INITSETGRXCLKICS            00012990-R  
+SST1INITDACDETECT               00012C08-R                                              SST1INITSETGRXCLKINI            00012958-R  
+SST1INITDACDETECTATT            00012BC0-R                                              SST1INITSETRESOLUTION           000148A0-R  
+SST1INITDACDETECTICS            00012B80-R                                              SST1INITSETVIDCLK               000147A0-R  
+SST1INITDACDETECTINI            00012BE0-R                                              SST1INITSETVIDCLKATT            00012A20-R  
+SST1INITDACDETECTTI             00012BA0-R                                              SST1INITSETVIDCLKICS            00012A00-R  
+SST1INITDACINDEXEDENABLE        00012870-R                                              SST1INITSETVIDCLKINI            000129D0-R  
+SST1INITDACRD                   000127B0-R                                              SST1INITSETVIDMODE              00014800-R  
+SST1INITDACWR                   00012850-R                                              SST1INITSETVIDMODEATT           00012938-R  
+SST1INITDEVICENUMBER            0008FC20-R                                              SST1INITSETVIDMODEICS           00012918-R  
+SST1INITDRAWRECTUSINGTRIS       000142E0-R                                              SST1INITSETVIDMODEINI           000128F0-R  
+SST1INITEXECUTEDACRDWR          000128C0-R                                              SST1INITSHUTDOWN                00013F30-R  
+SST1INITFILLDEVICEINFO          00013600-R                                              SST1INITSHUTDOWNSLI             00013D08-R  
+SST1INITFINDVIDEOTIMINGSTRUCT   00014948-R                                              SST1INITSLI                     00013BE0-R  
+SST1INITGAMMA                   00013080-R                                              SST1INITSLIDETECT               00013CD0-R  
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   14
+
+
+Symbol                          Value       Symbol                          Value       Symbol                          Value       
+------                          -----       ------                          -----       ------                          -----       
+SST1INITSLIPAIRED               00013CA0-R                                              SST_VREZ_800X600_75             00030DB0-R  
+SST1INITUSEVOODOOFILE           00030350-R                                              SST_VREZ_800X600_85             00030E00-R  
+SST1INITVGAPASSCTRL             00014578-R                                              SST_VREZ_856X480_60             00030E50-R  
+SST1INITVIDEO                   00014B58-R                                              SST_VREZ_960X720_60             00030EA0-R  
+SST1INITVIDEOBORDER             00014B78-R                                              SST_VREZ_960X720_75             00030EF0-R  
+SST1INITVIDEOBUFFERS            00014A90-R                                              SST_VREZ_960X720_85             00030F40-R  
+SST1INITVIDEOSHUTDOWN           00014600-R                                              TIMER                           000154E0-R  
+SST1INITVOODOOFILE              00013970-R                                              V2$READCONFIG                   00010150-R  
+SST1INITVPRINTF                 00013A50-R                                              X                               0008FC30-R  
+SST1INITWRITE32                 00014240-R                                              _CPUID                          000102C0-R  
+SST1SETGRXCLK_CANOPUS           00012768-R                                              _CPU_DETECT_ASM                 00010170-R  
+SST1_PCI_BUS_SNOOP_0            000226A0-R                                              _DOGRERRORCALLBACK              00010FA0-R  
+SST1_PCI_BUS_SNOOP_1            000226B0-R                                              _GLIDEINITENVIRONMENT           00011918-R  
+SST1_PCI_CFG_SCRATCH            000226C0-R                                              _GLIDEROOT                      0008FC40-R  
+SST1_PCI_CFG_STATUS             000226D0-R                                              _GRASSERT                       00011008-R  
+SST1_PCI_INIT_ENABLE            000226E0-R                                              _GRCLIPNORMALIZEANDGENERATEREGV 00011478-R  
+SST1_PCI_SIPROCESS              000226F0-R                                              _GRCOLORCOMBINEDELTA0MODE       00010EB0-R  
+SST1_PCI_VCLK_DISABLE           00022700-R                                              _GRDISPLAYSTATS                 00010380-R  
+SST1_PCI_VCLK_ENABLE            00022710-R                                              _GRERRORDEFAULTCALLBACK         00011050-R  
+SST_VREZ_1024X768_60            00030360-R                                              _GRFENCE                        000103C0-R  
+SST_VREZ_1024X768_75            000303B0-R                                              _GRFLUSHCOMMONSTATEREGS         00011198-R  
+SST_VREZ_1024X768_85            00030400-R                                              _GRLFBWRITEREGION               000116B0-R  
+SST_VREZ_320X200_120            00030450-R                                              _GRMIPMAPHOSTSIZE               00022720-R  
+SST_VREZ_320X200_70             000304A0-R                                              _GRMIPMAPHOSTWH                 00022820-R  
+SST_VREZ_320X200_75             000304F0-R                                              _GRMIPMAPINIT                   00010880-R  
+SST_VREZ_320X200_85             00030540-R                                              _GRREBUILDDATALIST              00011110-R  
+SST_VREZ_320X240_120            00030590-R                                              _GRRECACHEFIFO                  00010538-R  
+SST_VREZ_320X240_60             000305E0-R                                              _GRSHAMELESSPLUG                00010E50-R  
+SST_VREZ_320X240_75             00030630-R                                              _GRSLIORIGINCLEAR               00011510-R  
+SST_VREZ_320X240_85             00030680-R                                              _GRSPINFIFO                     00010570-R  
+SST_VREZ_400X300_120            000306D0-R                                              _GRSSTDETECTRESOURCES           00011810-R  
+SST_VREZ_400X300_60             00030720-R                                              _GRSWIZZLECOLOR                 00010518-R  
+SST_VREZ_400X300_75             00030770-R                                              _GRTEXCALCBASEADDRESS           00010A50-R  
+SST_VREZ_400X300_85             000307C0-R                                              _GRTEXDETAILCONTROL             00011F90-R  
+SST_VREZ_512X256_60             00030810-R                                              _GRTEXDOWNLOADNCCTABLE          00012000-R  
+SST_VREZ_512X384_120            00030860-R                                              _GRTEXDOWNLOADPALETTE           000120E8-R  
+SST_VREZ_512X384_60             000308B0-R                                              _GRTEXDOWNLOAD_DEFAULT_16_1     000126C0-R  
+SST_VREZ_512X384_72             00030900-R                                              _GRTEXDOWNLOAD_DEFAULT_16_2     000126A0-R  
+SST_VREZ_512X384_75             00030950-R                                              _GRTEXDOWNLOAD_DEFAULT_16_WIDES 00012680-R  
+SST_VREZ_512X384_75_NOSCANDOUBL 000309A0-R                                              _GRTEXDOWNLOAD_DEFAULT_8_1      00012650-R  
+SST_VREZ_512X384_85             000309F0-R                                              _GRTEXDOWNLOAD_DEFAULT_8_2      00012720-R  
+SST_VREZ_512X384_85_NOSCANDOUBL 00030A40-R                                              _GRTEXDOWNLOAD_DEFAULT_8_4      00012700-R  
+SST_VREZ_640X400_120            00030A90-R                                              _GRTEXDOWNLOAD_DEFAULT_8_WIDES  000126E0-R  
+SST_VREZ_640X400_70             00030AE0-R                                              _GRTEXFLOATLODTOFIXEDLOD        00010A70-R  
+SST_VREZ_640X400_75             00030B30-R                                              _GRTEXTEXTUREMEMREQUIRED        00010950-R  
+SST_VREZ_640X400_85             00030B80-R                                              _GRUPDATEPARAMINDEX             00011130-R  
+SST_VREZ_640X480_120            00030BD0-R                                              _GR_ASPECT_INDEX_TABLE          00022A20-R  
+SST_VREZ_640X480_60             00030C20-R                                              _GR_ASPECT_XLATE_TABLE          00022A40-R  
+SST_VREZ_640X480_75             00030C70-R                                              _GR_EVENODD_XLATE_TABLE         00022A60-R  
+SST_VREZ_640X480_85             00030CC0-R                                              _GUMPSTATE                      00154E80-R  
+SST_VREZ_800X600_120            00030D10-R                                              _GUMPTEXCOMBINEFUNCTION         000102F0-R  
+SST_VREZ_800X600_60             00030D60-R                                              _IMGGUESSTYPE                   000152C0-R  
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   15
+
+
+Symbol                          Value       Symbol                          Value       Symbol                          Value       
+------                          -----       ------                          -----       ------                          -----       
+_IMGISLITTLEENDIAN              00015400-R                                              
+_IMGREAD3DFDATA                 00014F70-R                                              
+_IMGREAD3DFHEADER               000151A8-R                                              
+_IMGREADP6DATA                  00014F30-R                                              
+_IMGREADP6HEADER                00015240-R                                              
+_IMGREADRGTDATA                 00014FA0-R                                              
+_IMGREADRGTHEADER               00015280-R                                              
+_IMGREADSBIDATA                 00014F50-R                                              
+_IMGREADSBIHEADER               000152A0-R                                              
+_IMGREADSRLEDATA                00014EE8-R                                              
+_IMGREADSRLEHEADER              00015030-R                                              
+_IMGREADTGADATA                 00014FD0-R                                              
+_IMGREADTGAHEADER               00015260-R                                              
+_IMGSTRUPR                      00014C00-R                                              
+_IMGTXDECODECOLORFORMAT         000150E8-R                                              
+_IMGWRITEP6DATA                 00014C90-R                                              
+_IMGWRITEP6HEADER               00014CC0-R                                              
+_IMGWRITESBIDATA                00014D30-R                                              
+_IMGWRITESBIDATAWIDE            000153C0-R                                              
+_IMGWRITESBIHEADER              00014D50-R                                              
+_IMGWRITETGADATA                00014C30-R                                              
+_IMGWRITETGAHEADER              00014C70-R                                              
+_TRISETUP_NOGRADIENTS           00012610-R                                              
+__MAIN                          000100C0-R                                              
+
+
+
+	  Key for special characters above:
+		+--------------------+
+		! *  - Undefined     !
+		! A  - Alias Name    !
+		! I  - Internal Name !
+		! U  - Universal     !
+		! R  - Relocatable   !
+		! X  - External      !
+		! WK - Weak          !
+		+--------------------+
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   16
+
+                                                 +----------------+
+                                                 ! Image Synopsis !
+                                                 +----------------+
+
+Virtual memory allocated:                         00010000 0016FFFF 00160000 (1441792. bytes, 2816. pages)
+Stack size:                                             20. pages
+Image header virtual block limits:                       1.        2. (    2. blocks)
+Image binary virtual block limits:                       3.      570. (  568. blocks)
+Image name and identification:                    V2CLIENT V1.0
+Number of files:                                        62.
+Number of modules:                                      57.
+Number of program sections:                            128.
+Number of global symbols:                             5455.
+Number of image sections:                               35.
+User transfer address:                            000100C0
+Debugger transfer address:                        00000340
+Number of code references to shareable images:          51.
+Image type:                                       EXECUTABLE.
+Map format:                                       DEFAULT in file DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.MAP;6
+Estimated map length:                             489. blocks
+                                              +---------------------+
+                                              ! Link Run Statistics !
+                                              +---------------------+
+
+Performance Indicators                            Page Faults	CPU Time	Elapsed Time
+----------------------                            -----------	--------	------------
+    Command processing:                                    79	00:00:00.08	00:00:00.07
+    Pass 1:                                                98	00:00:00.13	00:00:00.13
+    Allocation/Relocation:                                 26	00:00:00.01	00:00:00.17
+    Pass 2:                                               120	00:00:00.12	00:00:00.59
+    Map data after object module synopsis:                  3	00:00:00.00	00:00:00.00
+    Symbol table output:                                    1	00:00:00.01	00:00:00.16
+Total run values:                                         327	00:00:00.35	00:00:01.15
+
+Using a working set limited to 10112 pages and 4475 pages of data storage (excluding image)
+
+Total number object records read (both passes):   16747
+    of which 0 were in libraries and 7373 were DEBUG data records containing 949705 bytes
+614141 bytes of DEBUG data were written,starting at VBN 571 with 1201 blocks allocated
+
+Number of modules extracted explicitly             = 0
+    with 0 extracted to resolve undefined symbols
+
+72 library searches were for symbols not in the library searched
+
+A total of 59 global symbol table records was written
+
+LINK/DEBUG/MAP=[.OUT.DEBUG]V2CLIENT/EXECUTABLE=[.OUT.DEBUG]V2CLIENT.EXE [.OUT.DEBUG.OBJ]V2CLIENT.OBJ,DKA0:[USERS.LUIGI.VMSIDE.V2CLIE
+NT.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]CPUDETECT.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]CPUID.OBJ,[.OUT.DEBUG.OBJ.GLI
+DE.GLIDE2X.CVG.GLIDE.SRC]DDGUMP.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]DIGLIDE.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.
+SRC]DIGUTEX.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]DISST.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]DISTATE.OBJ,[.OUT.
+DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]DISTRIP.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]DITEX.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2
+X.CVG.GLIDE.SRC]FIFO.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]FPU.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]G3DF.OBJ,[.
+OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GAA.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GBANNER.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLID
+E2X.CVG.GLIDE.SRC]GDRAW.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GERROR.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GGLID
+
+DKA0:[USERS.LUIGI.VMSIDE.v2client.OUT.DEBUG]V2CLIENT.EXE;6      10-MAY-2021 00:43        Linker A13-04                    Page   17
+
+E.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GLFB.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GMOVIE.OBJ,[.OUT.DEBUG.OBJ.GL
+IDE.GLIDE2X.CVG.GLIDE.SRC]GPCI.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GSPLASH.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.S
+RC]GSST.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GSTRIP.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GTEX.OBJ,[.OUT.DEBUG.
+OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GTEXDL.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GU.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLID
+E.SRC]GUCLIP.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GUMP.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GUTEX.OBJ,[.OUT.DE
+BUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]GXDRAW.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.GLIDE.SRC]XTEXDL.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.
+CVG.INIT]CANOPUS.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]DAC.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]FXREMAP.OBJ,[.OUT.DEBUG.O
+BJ.GLIDE.GLIDE2X.CVG.INIT]GAMMA.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]GDEBUG.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]INFO.OB
+J,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]PARSE.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]PRINT.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CV
+G.INIT]SLI.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]SST1INIT.OBJ,[.OUT.DEBUG.OBJ.GLIDE.GLIDE2X.CVG.INIT]UTIL.OBJ,[.OUT.DEBUG.OBJ.G
+LIDE.GLIDE2X.CVG.INIT]VIDEO.OBJ,[.OUT.DEBUG.OBJ.GLIDE.SWLIBS.FXMISC]FX64.OBJ,[.OUT.DEBUG.OBJ.GLIDE.SWLIBS.FXMISC]FXGLOB.OBJ,[.OUT.DE
+BUG.OBJ.GLIDE.SWLIBS.FXMISC]FXIMG.OBJ,[.OUT.DEBUG.OBJ.GLIDE.SWLIBS.FXMISC]FXOS.OBJ,[.OUT.DEBUG.OBJ.GLIDE.SWLIBS.NEWPCI.PCILIB]FXINFO
+.OBJ,[.OUT.DEBUG.OBJ.GLIDE.SWLIBS.NEWPCI.PCILIB]FXOVMS.OBJ,[.OUT.DEBUG.OBJ.GLIDE.SWLIBS.NEWPCI.PCILIB]FXPCI.OBJ,[.OUT.DEBUG.OBJ.GLID
+E.SWLIBS.NEWPCI.PCILIB]SST1_PCI.OBJ

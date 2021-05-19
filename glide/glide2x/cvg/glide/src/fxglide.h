@@ -361,6 +361,9 @@ p6Fence(void);
 #define P6FENCE p6Fence()
 #elif defined(__MSC__)
 #define P6FENCE {_asm xchg eax, p6FenceVar}
+#elif defined(__ALPHA)
+#include <BUILTINS.H>
+# define P6FENCE __MB();
 #else
 #error "P6 Fencing in-line assembler code needs to be added for this compiler"
 #endif /* Compiler specific fence commands */
@@ -1771,6 +1774,7 @@ do { \
 
 #define STORE_FIFO(__chipId, __base, __field, __val) \
 do { \
+   P6FENCE; \
    FxU32* curFifoPtr = gc->cmdTransportInfo.fifoPtr; \
    FXUNUSED(__base); \
    GR_ASSERT(((FxU32)(curFifoPtr) & FIFO_ALIGN_MASK) == 0);    /* alignment */ \
@@ -1793,6 +1797,7 @@ do { \
 
 #define STORE_FIFO_INDEX(__chipId, __base, __regIndex, __val) \
 do { \
+   P6FENCE; \
    FxU32* curFifoPtr = gc->cmdTransportInfo.fifoPtr; \
    FXUNUSED(__base); \
    GR_ASSERT(((FxU32)(curFifoPtr) & FIFO_ALIGN_MASK) == 0);    /* alignment */ \
@@ -1816,6 +1821,7 @@ do { \
 
 #define STOREF_FIFO_INDEX(__chipId, __base, __regIndex, __val) \
 do { \
+   P6FENCE; \
    FxU32* curFifoPtr = gc->cmdTransportInfo.fifoPtr; \
    FXUNUSED(__base); \
    GR_ASSERT(((FxU32)(curFifoPtr) & FIFO_ALIGN_MASK) == 0);    /* alignment */ \
@@ -1839,6 +1845,7 @@ do { \
 
 #define STORE16_FIFO(__chipId, __base, __field, __val) \
 do { \
+   P6FENCE; \
    FxU32* curFifoPtr = gc->cmdTransportInfo.fifoPtr; \
    const FxU32 temp32 = (((FxU32)(__val)) & 0x0000FFFF); \
    FXUNUSED(__base); \
@@ -1862,6 +1869,7 @@ do { \
 
 #define STOREF_FIFO(__chipId, __base, __field, __val) \
 do { \
+   P6FENCE; \
    FxU32* curFifoPtr = gc->cmdTransportInfo.fifoPtr; \
    FXUNUSED(__base); \
    ASSERT(((FxU32)(curFifoPtr) & FIFO_ALIGN_MASK) == 0);    /* alignment */ \

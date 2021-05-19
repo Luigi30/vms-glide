@@ -110,10 +110,10 @@ FX_ENTRY FxBool FX_CALL fxHalVsyncNot(SstRegs *sst);
 	#define GET8(s) s
 	#define GET16(s) s
 	#define GET(s) s
-	#define SET8(d,s) d = s
-	#define SET16(d,s) d = s
-	#define SET(d,s) d = s
-	#define SETF(d,s) (*(float *)&(d)) = s
+	#define SET8(d,s) { P6FENCE; d = s; }
+	#define SET16(d,s) { P6FENCE; d = s; }
+	#define SET(d,s) { P6FENCE; d = s; }
+	#define SETF(d,s) { P6FENCE; (*(float *)&(d)) = s; }
 
 //---------------------------------------------------------------------------
 // internal HAL stuff not meant for external use

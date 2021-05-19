@@ -1945,6 +1945,7 @@ GR_ENTRY(grSstResetPerfStats, void, (void))
 GR_ENTRY(grSstStatus, FxU32, (void))
 {
   GR_BEGIN_NOFIFOCHECK("grSstStatus", 85);
+  P6FENCE;
 
   {
     const FxU32 stat = GR_GET(hw->status);

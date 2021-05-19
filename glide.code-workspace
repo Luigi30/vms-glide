@@ -5,7 +5,7 @@
 		}
 	],
 	"settings": {
-		"vmssoftware.project-dep.buildName": "RELEASE",
+		"vmssoftware.project-dep.buildName": "DEBUG",
 		"files.associations": {
 			"*.h65": "ca65",
 			"lib$routines.h": "c",
@@ -21,7 +21,9 @@
 			"gdebug.h": "c",
 			"gump.h": "c",
 			"sst1init.h": "c",
-			"stsdef.h": "c"
+			"stsdef.h": "c",
+			"BUILTINS.H": "cpp",
+			"sst1_pci.h": "c"
 		},
 		"files.eol": "\n"
 	}

@@ -154,9 +154,8 @@ p6Fence(void);
 #elif defined(__GNUC__) && defined(__alpha__)
 # define P6FENCE asm volatile("mb" ::: "memory");
 #elif defined(__DECC) && defined (__ALPHA)
-#include <C_ASM.H>
-#pragma intrinsic(asm)
-# define P6FENCE asm("mb;");
+#include <BUILTINS.H>
+# define P6FENCE __MB();
 #else
 #  error "P6 Fencing in-line assembler code needs to be added for this compiler"
 #endif

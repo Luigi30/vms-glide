@@ -677,6 +677,7 @@ _GlideInitEnvironment(void)
 
 #ifdef GLIDE_DEBUG
   GDBG_INFO(0,"GLIDE DEBUG LIBRARY\n"); /* unconditional display */
+  GDBG_INFO(0, "BUILD %s %s\n", __DATE__, __TIME__);
 #endif
 
 #if defined(FX_DLL_ENABLE) && (GLIDE_PLATFORM & GLIDE_OS_WIN32)
